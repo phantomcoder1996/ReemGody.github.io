@@ -12,7 +12,7 @@ const research = [
       "Submitted to ICASSP 2023",
     researchYr: 2022,
     citebox: "popup1",
-    image: "assets/images/research-page/WER_of_LS-other_after_finetuning_on_10_HRs_using_different_data_selection_criteria.png",
+    image: "assets/images/research-page/test-other.svg",
     citation: {
       vancouver:
         "Gody R, Harwath D. Unsupervised Fine-Tuning Data Selection for ASR Using Self-Supervised Speech Models. arXiv preprint arXiv:2212.01661. 2022 Dec 3.",
