@@ -12,7 +12,7 @@ const exp = [
     desp: "<li>Worked on code switching problem between North African dialects (moroccan, Algerian, Tunisian) and French in ASR systems.</li> <li>Worked on language modeling and second pass rescoring models.</li> <li>Mentored internship projects: building arabic diacritizer, generating text data for building language models using araBeRT.</li>",
   },
   {
-    title: "RSDE",
+    title: "Data and Applied Scientist",
     cardImage: "assets/images/experience-page/Microsoft.png",
     place: "Microsoft",
     time: "(Jul, 2019 - Feb, 2022)",

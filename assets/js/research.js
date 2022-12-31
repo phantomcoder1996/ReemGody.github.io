@@ -6,6 +6,7 @@ const research = [
 
   {
     title: "Unsupervised Fine-Tuning Data Selection for ASR Using Self-Supervised Speech Models",
+    url: "https://arxiv.org/abs/2212.01661",
     authors:
       "Reem Gody, David Harwath",
     conferences:
@@ -23,6 +24,7 @@ const research = [
   },
   {
     title: "AnimaChaotic: AI-based Automatic Conversion of Children’s Stories to Animated 3D Videos",
+    url:"https://www.scitepress.org/Papers/2022/108151/108151.pdf",
     authors:
       "Reem Abdel-Salam, Reem Gody, Mariam Maher, Hagar Hosny and Ahmed S. Kaseb",
     conferences:
@@ -171,6 +173,7 @@ const fillData = () => {
     ({
       image,
       title,
+      url,
       authors,
       conferences,
       researchYr,
@@ -188,7 +191,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a href="${url}" class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
