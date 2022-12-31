@@ -5,9 +5,10 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
+
   {
     title: "x-Attention: A Model for Cross Domain Question Answering",
-    cardImage: "assets/images/xattention.png",
+    cardImage: "assets/images/project-page/xattention.png",
     description: "x-Attention: A Model for Cross Domain Question Answering based on the idea of Bi-directional Attention Flow",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://drive.google.com/file/d/1yrLd8R9a8rcYy61IFQeuc2ZDLD6CLe0j/view?usp=sharing",
@@ -20,7 +21,48 @@ const projects = [
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://drive.google.com/file/d/13yDzZnQ7GVMe15RBcFj3gzc_axSpRaZU/view?usp=sharing",
     Githublink: "",
-  }
+  },
+  {
+    title: "Parallel Prefix Scan using Blelloch Algorithm",
+    cardImage: "assets/images/project-page/lab1.png",
+    description: "Parallel Prefix Scan using Blelloch Algorithm",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1K8tROvReksAh5YDJW-_RbGouOiPTxgVY/view?usp=sharing",
+    Githublink: "",
+  },
+  {
+    title: "Kmeans using CUDA and thrust",
+    cardImage: "assets/images/project-page/lab2.png",
+    description: "Kmeans using CUDA and thrust",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1_JtBEsi9SEpDvmgCyPjYpp87bzWGEFVm/view?usp=sharing",
+    Githublink: "",
+  },
+  {
+    title: "Solving Binary Tree Equivalence using GO",
+    cardImage: "assets/images/project-page/lab3.png",
+    description: "Solving Binary Tree Equivalence using GO",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1gPiElFmWfrw3tMUbYkhf4ktTHwQouSkM/view?usp=sharing",
+    Githublink: "",
+  },
+  {
+    title: "2PC Protocol Using RUST",
+    cardImage: "assets/images/project-page/lab4.png",
+    description: "2PC Protocol Using RUST",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1ExTJhlFTZl8NSM3tfpaM7d0qjXK7INFs/view?usp=sharing",
+    Githublink: "",
+  },
+  {
+    title: "Barnes-Hut implementation using MPI",
+    cardImage: "assets/images/project-page/lab5.png",
+    description: "Barnes-Hut implementation using MPI",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1KXE3aaUYcbcC4KzdZ1VksbxbTdK7LF5Y/view?usp=sharing",
+    Githublink: "",
+  },
+
   // {
   //   title: "Quiz App",
   //   cardImage: "assets/images/project-page/quiz.jpg",
