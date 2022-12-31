@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/Microsoft.png",
     place: "Microsoft",
     time: "(Jul, 2019 - Feb, 2022)",
-    desp: "<li>Worked on enabling  Inverse text normalization (ITN) for arabic on azure speech sdk.</li>",
+    desp: "<li>Worked on enabling  Inverse text normalization (ITN) for arabic on azure speech sdk.</li><li>Worked on fine-tuning acoustic models for Arabic Speech</li>",
   },
   {
     title: "Software Engineering Intern",

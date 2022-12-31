@@ -5,14 +5,22 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-    {
+  {
+    title: "x-Attention: A Model for Cross Domain Question Answering",
+    cardImage: "assets/images/xattention.png",
+    description: "x-Attention: A Model for Cross Domain Question Answering based on the idea of Bi-directional Attention Flow",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://drive.google.com/file/d/1yrLd8R9a8rcYy61IFQeuc2ZDLD6CLe0j/view?usp=sharing",
+    Githublink: "",
+  },
+  {
     title: "AI Agent for SupertuxKart Ice Hockey",
     cardImage: "assets/images/project-page/deepLearningFinalProject.png",
     description: "Building an AI driven vehicle that navigates through the <a href='https://github.com/supertuxkart'>SupertuxKart</a> Ice Hockey playground and plays soccer. The goal of the agent is to take the ball and score a goal in the opponents goal. The agent was built as a point network using pytorch. The data was generated through playing multiple tournaments, taking snapshots and creating the bounding boxes.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
+    Previewlink: "https://drive.google.com/file/d/13yDzZnQ7GVMe15RBcFj3gzc_axSpRaZU/view?usp=sharing",
     Githublink: "",
-  },
+  }
   // {
   //   title: "Quiz App",
   //   cardImage: "assets/images/project-page/quiz.jpg",
