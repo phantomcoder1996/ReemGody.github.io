@@ -3,6 +3,24 @@
 const researchTable = document.querySelector(".main");
 
 const research = [
+
+  {
+    title: "Unsupervised Fine-Tuning Data Selection for ASR Using Self-Supervised Speech Models",
+    authors:
+      "Reem Gody, David Harwath",
+    conferences:
+      "Submitted to ICASSP 2023",
+    researchYr: 2022,
+    citebox: "popup1",
+    image: "assets/images/research-page/thesis_ut.pdf",
+    citation: {
+      vancouver:
+        "Gody R, Harwath D. Unsupervised Fine-Tuning Data Selection for ASR Using Self-Supervised Speech Models. arXiv preprint arXiv:2212.01661. 2022 Dec 3.",
+    },
+    abstract:
+      "Self-supervised learning (SSL) has been able to leverage unlabeled data to boost the performance of automatic speech recognition (ASR) models when we have access to only a small amount of transcribed speech data. However, this raises the question of which subset of the available unlabeled data should be selected for transcription. Our work investigates different unsupervised data selection techniques for fine-tuning the HuBERT model under a limited transcription budget. We investigate the impact of speaker diversity, gender bias, and topic diversity on the downstream ASR performance. We also devise two novel techniques for unsupervised data selection: pre-training loss based data selection and the perplexity of byte pair encoded clustered units (PBPE) and we show how these techniques compare to pure random data selection. Finally, we analyze the correlations between the inherent characteristics of the selected fine-tuning subsets as well as how these characteristics correlate with the resultant word error rate. We demonstrate the importance of token diversity, speaker diversity, and topic diversity in achieving the best performance in terms of WER.",
+    absbox: "absPopup1",
+  },
   {
     title: "AnimaChaotic: AI-based Automatic Conversion of Children’s Stories to Animated 3D Videos",
     authors:
