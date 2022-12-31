@@ -31,7 +31,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Kmeans using CUDA and thrust",
+    title: "K-means using CUDA and thrust",
     cardImage: "assets/images/project-page/lab2.png",
     description: "Kmeans using CUDA and thrust",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
